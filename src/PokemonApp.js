@@ -20,9 +20,11 @@ export const PokemonApp = () => {
 		fetchPokemon();
 	}, []);
 	return (
-		<div className="container">
-			<Pokedex pokemons={pokemons} />
-		</div>
+		<>
+			<div className="container">
+				<Pokedex pokemons={pokemons} />
+			</div>
+		</>
 	);
 };
 
